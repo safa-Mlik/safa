@@ -1,0 +1,189 @@
+h1 {
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: 160px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+
+h3 {
+    font-size: 1.4em;
+    color: #e3dcdc;
+    text-shadow: 2px 2px black;
+}
+
+.specialite {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    font-size: 3em;
+    margin-top: 300px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.Background_Titre {
+    background-image: url(../Images/BackgroundTitre.PNG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 640px;
+    position: relative;
+    bottom: 65px;
+}
+
+.AnchorAccueil {
+    margin-top: 0px;
+    transition: opacity 100ms
+}
+
+.AnchorAccueil:hover {
+    opacity: 0.5;
+    color: black;
+    text-decoration: none;
+}
+
+#Presentation {
+    scroll-margin-top: 100px;
+}
+
+.Section {
+    color: #edf6fa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgba(68, 107, 189, 0.9);
+    border-radius: 20px;
+    border: solid;
+    border-color: black;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 10px 10px 15px black;
+    transition: box-shadow 500ms
+}
+
+.Section:hover {
+    box-shadow: 20px 20px 30px black
+}
+
+.Section Strong {
+    color: white;
+}
+
+.paragraphe {
+    width: 500px;
+    padding: 20px;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+.Section-margin {
+    margin-top: 50px;
+}
+
+.paragraphe-margin {
+    margin-right: 40px;
+}
+
+.ImagesDroite {
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+    margin-right: 30px;
+}
+
+.ImagesGauche {
+    border-radius: 20px;
+    width: 600px;
+    height: 300px;
+    margin-left: 15px;
+}
+
+.me_contacter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.contacter {
+    background: #4230ab;
+    border-radius: 40px;
+    border: solid;
+    border-color: black;
+    color: #cec5de;
+    padding: 20px 50px;
+    font-size: 2em;
+    transition: transform 200ms, background-color 200ms;
+}
+
+.contacter:hover {
+    transform: scale(1.20);
+    background:  rgba(66, 48, 171, 0.5);
+}
+
+.BoutonContact:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.PortraitParis {
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
+    top: 1922px;
+    width: 100%;
+    height: 1982px;
+}
+
+.Relationnel {
+    color: #0a0a0a;
+    width: 1100px;
+    text-align: justify;
+    margin: auto;
+    font-size: 1.2em;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    position: relative;
+    z-index: 2;
+    text-shadow: 0.3px 0.3px;
+}
+
+#Relationnel {
+    scroll-margin-top: 180px;
+}
+
+.Recrutement, .RelCommerciales, .RessourcesHumaines {
+    display: block;
+    background-color: rgba(12, 64, 148, 0.9);
+    width: 800px;
+    text-align: justify;
+    margin: auto;
+    font-size: 1.1em;
+    margin-bottom: 100px;
+    padding: 20px 50px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 2;
+    text-shadow: 0.3px 0.3px;
+    color: #c4bebe;
+    scroll-margin-top: 100px;
+    transition: box-shadow 300ms
+}
+
+.Recrutement:hover, .RelCommerciales:hover, .RessourcesHumaines:hover {
+    box-shadow: 20px 20px 30px black
+}
+
+.Recrutement a {
+    color: #e3dcdc
+}
+

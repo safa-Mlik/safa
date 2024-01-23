@@ -1,0 +1,180 @@
+header {
+    background-color: #e69db0;
+    height: 80px;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+
+
+
+body {
+    background-color: #e5cad8;
+    margin: 0px;
+   
+}
+
+nav {
+    color: white;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 120px;
+    justify-content: right;
+    align-items: flex-start;
+    font-size: 1.2em;
+}
+p{
+    color: black;
+}
+
+
+
+.lien_nav {
+    color: rgb(6, 5, 5);
+    margin-top: 11px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-decoration: none;
+    transition: background-color 200ms
+}
+
+.lien_nav:hover {
+    background: #0a7091;
+}
+
+.banniere nav a {
+    text-decoration: none;
+}
+
+.PP {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 0px;
+}
+
+.banniere {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ListeDeroulante {
+    margin-top: 12.5px;
+    line-height: 30px;
+    background: #367ceb;
+    padding-left: 27px;
+    border-left: solid 1px;
+    border-right: solid 1px;
+    max-height: 0;
+    
+    transition: background-color 200ms;
+}
+
+.ElementDeroulant:hover {
+    background: #0a7091;
+}
+
+.LienDeroulant {
+    color: rgb(0, 0, 0);
+}
+
+.LienDeroulant:hover {
+    color: rgb(1, 0, 0)
+}
+
+:is(.MenuDeroulant1, .MenuDeroulant2):hover .ListeDeroulante {
+    max-height: 300px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    margin-top: 11.5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #29248a;
+}
+
+.BlocEXP {
+    color: #c4bebe;
+    display: block;
+    background-color:rgba(229, 164, 191, 0.279);
+    width: 1000px;
+    text-align: justify;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding: 20px 50px;
+    font-size: 1.1em;
+    text-shadow: 0.3px 0.3px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px black;
+    position: relative;
+    z-index: 2;
+    transition: box-shadow 500ms
+}
+
+.BlocEXP:hover {
+    box-shadow: 20px 20px 50px black;
+}
+
+.BlocEXP strong {
+    color: #bac9d1
+}
+
+.Categorie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contact-form {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #e5cad8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact-form h2 {
+    color: hsl(0, 0%, 0%);
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}

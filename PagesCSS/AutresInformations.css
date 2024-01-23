@@ -1,0 +1,92 @@
+h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    font-size: 2em;
+    text-shadow: 2px 2px black;
+}
+
+h3 {
+    font-size: 1.3em;
+    text-shadow: 1px 1px black;
+}
+
+
+
+.MegaLogoC {
+    height: 80px;
+    width: 250px;
+    transition: background-color 150ms;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.MegaLogoP {
+    height: 70px;
+    width: 220px;
+    transition: background-color 150ms;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.MegaLogoF {
+    height: 80px;
+    width: 220px;
+    transition: background-color 150ms;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+
+.Tage {
+    display: flex;
+    gap: 40px;
+}
+
+.Tage1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Tage2 {
+    display: flex;
+    gap: 10px;
+}
+
+.LogoT {
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.LesAutres {
+    display: flex;
+    gap: 90px;
+}
+
+.LesAutres2 {
+    margin-top: 50px;
+    display: flex;
+    gap: 179px;
+    margin-bottom: 40px;
+}
+
+.TageA {
+        display: flex;
+        gap: 120px;
+}
+
+.TageB {
+    display: flex;
+    gap: 115px;
+}
+
+.TitreAutres {
+    text-shadow: 0.3px 0.3px;
+}
+
+

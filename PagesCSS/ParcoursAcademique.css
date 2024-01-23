@@ -1,0 +1,23 @@
+
+h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px black;
+}
+
+h2 {
+    font-size: 2em;
+    text-shadow: 2px 2px black;
+}
+
+h3 {
+    font-size: 1.3em;
+    text-shadow: 1px 1px black;
+}
+
+.img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: auto; 
+    text-align: center;
+}

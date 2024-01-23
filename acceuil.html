@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CV Accueil</title>
+    <link href="PagesCSS/Style.css" rel="stylesheet">
+    <link href="PagesCSS/CV_Accueil.css" rel="stylesheet">
+</head>
+<body>
+<header class="banniere">
+    <a href="acceuil.html">
+        <img class="PP" src="Images/safa.jpg" title="Prise chez Hays Luxembourg en 2022 !" alt="Photo de profil professionnelle">
+    </a>
+    <nav>
+        <div class="MenuDeroulant1">
+            <a href="ParcoursAcademique.html"><div class="lien_nav">Parcours Académique</div></a>
+        </div>
+        <div class="MenuDeroulant2">
+            <a href="Experiences.html"><div class="lien_nav">Expériences</div></a>
+        </div>
+        <div class="MenuDeroulant3">  
+            <a href="evenement.html"><div class="lien_nav">Évènements</div></a>
+        </div>
+        <div class="MenuDeroulant4">
+            <a href="Competences.html"><div class="lien_nav">Compétences</div></a>
+        </div>
+        <div class="MenuDeroulant5">
+            <a href="AutresInformations.html"><div class="lien_nav">Autres Informations</div></a>
+        </div>
+        <div class="MenuDeroulant5">
+            <a href="quizz.html"><div class="lien_nav">Quizz</div></a>
+        </div>
+    </nav>
+</header>
+
+<div class="Background_Titre">
+    <h1>Mon CV <p>Mes réseaux sociaux</p></h1>
+    <section class="specialite">
+        <a href="https://www.facebook.com/safa.mlik.77/" class="AnchorAccueil">
+            <img class="PP" src="Images/fac.png">
+        </a>
+        <a href="https://www.instagram.com/safa_mlik/" class="AnchorAccueil">
+            <img class="PP" src="Images/instagram_PNG10.png">
+        </a>
+        <a href="https://www.linkedin.com/in/safa-mlik-784b9b291/" class="AnchorAccueil">
+            <img class="PP" src="Images/linkdinn.jpg">
+        </a>
+    </section>
+</div>
+
+<footer>
+    <div class="contact-form">
+        <h2>Contact Professionnel</h2>
+        <form action="submit_form.php" method="post" onsubmit="showAlert()">
+            <div class="form-group">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Numéro de téléphone :</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{8}" placeholder=" donner votre numero" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+</footer>
+
+<script>
+    function showAlert() {
+        alert("Message envoyé!");
+    }
+</script>
+
+</body>
+
+</html>

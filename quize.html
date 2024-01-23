@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CV Accueil</title>
+    <link href="PagesCSS/Style.css" rel="stylesheet">
+    <link href="PagesCSS/Experiences.css" rel="stylesheet">
+</head>
+<body>
+  <header class="banniere">
+    <a href="acceuil.html"><img class="PP" src="Images/safa.jpg" title="Prise chez Hays Luxembourg en 2022 !" alt="Photo de profil professionnelle"></a>
+      <nav>
+        <div class="MenuDeroulant1">
+        <a href="ParcoursAcademique.html"><div class="lien_nav">Parcours Académique</div></a>
+        </div>
+        <div class="MenuDeroulant2">
+          <a href="Experiences.html"><div class="lien_nav">Expériences </div></a>
+        
+          </div>
+  
+          <div class="MenuDeroulant3">  
+            <a href="evenement.html"><div class="lien_nav">Evènements</div></a>
+            </div>
+            <div class="MenuDeroulant4">
+              <a href="Competences.html"><div class="lien_nav">Compétences</div></a>
+            </div>
+        <div class="MenuDeroulant5">
+          <a href="AutresInformations.html"><div class="lien_nav">Autres Informations</div></a>
+          </div>
+
+          <div class="MenuDeroulant5">
+            <a href="quize.html"><div class="lien_nav">Quizz</div></a>
+            </div>  
+  
+      </nav>
+  </header>
+
+    <style>
+       body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+li  {
+    margin-bottom: 20px;
+    
+}
+
+p {
+    margin-bottom: 10px;
+    color: #777676;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input {
+    margin-right: 5px;
+}
+
+button {
+    background-color: hsl(302, 68%, 85%);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #dff0d8;
+    border: 1px solid #d6e9c6;
+    border-radius: 4px;
+    color: #3c763d;
+    font-size: 16px;
+}
+
+    </style>
+<div class="BlocEXP">
+    <h1>Quizz sur vos préférences</h1>
+
+    <form id="quizzForm">
+        <ol>
+            <li>
+                <p>Question 1: Quelle est votre couleur préférée?</p>
+                <label>
+                    <input type="radio" name="q1" value="Rouge"> Rouge
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="Bleu"> Bleu
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="Vert"> Vert
+                </label>
+                <label>
+                    <input type="radio" name="q1" value="Jaune"> Jaune
+                </label>
+            </li>
+            <li>
+                <p>Question 2: Quelle est votre passion?</p>
+                <label>
+                    <input type="radio" name="q2" value="Musique"> Musique
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="Sport"> Sport
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="Lecture"> Lecture
+                </label>
+                <label>
+                    <input type="radio" name="q2" value="Voyages"> Voyages
+                </label>
+            </li>
+            <li>
+                <p>Question 3: Quels langages préférez-vous?</p>
+                <label>
+                    <input type="radio" name="q3" value="HTML et CSS"> HTML et CSS
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="JavaScript"> JavaScript
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="Python"> Python
+                </label>
+                <label>
+                    <input type="radio" name="q3" value="Java"> Java
+                </label>
+            </li>
+            <li>
+                <p>Question 4: Quel est votre genre de film préféré?</p>
+                <label>
+                    <input type="radio" name="q4" value="Action"> Action
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="Comédie"> Comédie
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="Drame"> Drame
+                </label>
+                <label>
+                    <input type="radio" name="q4" value="Science-fiction"> Science-fiction
+                </label>
+            </li>
+            <li>
+                <p>Question 5: Quel est votre plat préféré?</p>
+                <label>
+                    <input type="radio" name="q5" value="Pizza"> Pizza
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="Sushi"> Sushi
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="Pâtes"> Pâtes
+                </label>
+                <label>
+                    <input type="radio" name="q5" value="Burger"> Burger
+                </label>
+            </li>
+            <li>
+                <p>Question 6: Quelle est votre destination de voyage de rêve?</p>
+                <label>
+                    <input type="radio" name="q6" value="Paris"> Paris
+                </label>
+                <label>
+                    <input type="radio" name="q6" value="Bali"> Bali
+                </label>
+                <label>
+                    <input type="radio" name="q6" value="New York"> New York
+                </label>
+                <label>
+                    <input type="radio" name="q6" value="Tokyo"> Tokyo
+                </label>
+            </li><li>
+                <p>Question 7: Comment vous décririez-vous en termes de personnalité?</p>
+                <label>
+                    <input type="radio" name="q7" value="Créatif(ve)"> Créatif(ve)
+                </label>
+                <label>
+                    <input type="radio" name="q7" value="Sociable"> Sociable
+                </label>
+                <label>
+                    <input type="radio" name="q7" value="Timide"> Timide
+                </label>
+                <li>
+                    <p>Question 8: Quelle est votre approche face aux défis?</p>
+                    <label>
+                        <input type="radio" name="q8" value="Optimiste"> Optimiste, je vois les défis comme des opportunités
+                    </label>
+                    <label>
+                        <input type="radio" name="q8" value="Déterminé(e)"> Déterminée, je persiste jusqu'à trouver une solution
+                    </label>
+                    <label>
+                        <input type="radio" name="q8" value="Créatif(ve)"> Créative, je trouve des solutions originales
+                    </label>
+                    <label>
+                        <input type="radio" name="q8" value="Collaboratif(ve)"> collaborative, je travaille avec d'autres pour trouver des solutions
+                    </label>
+                </li>
+                <li>
+                    <p>Question 9: Comment gérez-vous votre temps et vos priorités?</p>
+                    <label>
+                        <input type="radio" name="q9" value="Organisé(e)"> Organisée, avec une planification précise
+                    </label>
+                    <label>
+                        <input type="radio" name="q9" value="Adaptable"> Adaptable, en ajustant mes priorités en fonction des circonstances
+                    </label>
+                    <label>
+                        <input type="radio" name="q9" value="Efficace"> Efficace, en me concentrant sur les tâches les plus importantes en premier
+                    </label>
+                    <label>
+                        <input type="radio" name="q9" value="Intuitif(ve)"> Intuitive, en suivant mon instinct et mes impulsions
+                    </label>
+                </li>
+                
+                
+               
+               
+            </li>
+            <li>
+                <p>Question 10: Quelle est votre saison préférée?</p>
+                <label>
+                    <input type="radio" name="q10" value="Printemps"> Printemps
+                </label>
+                <label>
+                    <input type="radio" name="q10" value="Été"> Été
+                </label>
+                <label>
+                    <input type="radio" name="q10" value="Automne"> Automne
+                </label>
+                <label>
+                    <input type="radio" name="q10" value="Hiver"> Hiver
+                </label>
+            </li>
+            
+            
+            
+            
+        </ol>
+
+        <button type="button" onclick="calculateScore()">Valider</button>
+    </div>
+        <script>
+            function calculateScore() {
+                const form = document.getElementById('quizzForm');
+                let score = 0;
+
+                // Ajoutez les réponses correctes pour chaque question
+                const correctAnswers = {
+                    q1: 'Rouge',
+                    q2: 'Musique',
+                    q3: 'HTML et CSS',
+                    q4:'Drame',
+                    q5:'Pizza',
+                    q6:'Bali',
+                    q7:'Timide',
+                    q8:'collaborative',
+                    q9:'Organisée',
+                    q10:'Été'
+                    // Ajoutez les réponses correctes pour les autres questions
+                };
+
+                for (let i = 1; i <= 10; i++) {
+                    const questionName = 'q' + i;
+                    const selectedAnswer = form.querySelector('input[name="' + questionName + '"]:checked');
+
+                    if (selectedAnswer && selectedAnswer.value === correctAnswers[questionName]) {
+                        score++;
+                    }
+                }
+
+                alert(`Votre score est de ${score} sur 10.`);
+
+                let resultMessage = 'Réponses correctes:\n';
+                for (let i = 1; i <= 10; i++) {
+                    const questionName = 'q' + i;
+                    resultMessage += `${i}. ${correctAnswers[questionName]}\n`;
+                }
+
+                alert(resultMessage);
+            }
+        </script>
+</body>
+</html>

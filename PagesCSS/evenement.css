@@ -1,0 +1,20 @@
+#img {
+    max-width: 35%; 
+    height: auto;
+    display: block; 
+    margin: auto; 
+    text-align: center;
+     
+}
+h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px black;
+}
+
+.video{
+    max-width: 35%; 
+    height: auto;
+    display: block; 
+    margin: auto; 
+    text-align: center;
+}
